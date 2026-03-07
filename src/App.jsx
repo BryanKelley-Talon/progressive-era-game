@@ -620,9 +620,10 @@ const CSS = `
   }
 
   .game-wrapper {
-    max-width: 860px;
+    width: 100%;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 28px 32px 80px;
+    padding: 36px 56px 80px;
   }
 
   /* MAIN PANEL — double-rule newspaper border */
@@ -849,7 +850,7 @@ const CSS = `
   /* CHAPTER HUB */
   .chapter-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     margin-top: 20px;
   }
@@ -949,27 +950,35 @@ const CSS = `
   }
 
   /* RESPONSIVE — laptop */
-  @media (max-width: 900px) {
-    .game-wrapper { padding: 20px 24px 60px; }
-    .panel-inner { padding: 22px 24px; }
+  @media (max-width: 1100px) {
+    .game-wrapper { padding: 28px 36px 60px; }
+    .panel-inner { padding: 24px 28px; }
+    .chapter-grid { grid-template-columns: repeat(3, 1fr); }
   }
 
-  /* RESPONSIVE — tablet/phone */
-  @media (max-width: 600px) {
-    .game-wrapper { padding: 14px 14px 60px; }
-    .panel-inner { padding: 16px 16px; }
-    .meters { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-    .chapter-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  /* RESPONSIVE — tablet */
+  @media (max-width: 780px) {
+    .game-wrapper { padding: 20px 20px 60px; }
+    .panel-inner { padding: 18px 20px; }
+    .meters { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .chapter-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
     p.body-text { font-size: 16px; }
     .choice-text { font-size: 15px; }
     .hinge-option { font-size: 15px; }
-    .quote-text { font-size: 16px; }
-    h2.screen-title { font-size: clamp(1.3rem, 5vw, 1.8rem); }
   }
 
-  @media (max-width: 400px) {
-    .chapter-grid { grid-template-columns: 1fr; }
-    .game-wrapper { padding: 10px 10px 50px; }
+  /* RESPONSIVE — phone */
+  @media (max-width: 500px) {
+    .game-wrapper { padding: 12px 14px 50px; }
+    .panel-inner { padding: 14px 16px; }
+    .meters { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .chapter-grid { grid-template-columns: 1fr; gap: 8px; }
+    p.body-text { font-size: 15px; line-height: 1.75; }
+    .choice-text { font-size: 14px; }
+    .hinge-option { font-size: 14px; }
+    .quote-text { font-size: 15px; }
+    h2.screen-title { font-size: clamp(1.2rem, 5.5vw, 1.7rem); }
+    .btn { padding: 12px 20px; font-size: 11px; }
   }
 `;
 
