@@ -11,6 +11,8 @@ import { useState, useEffect } from 'react';
 // ============================================================
 
 const SAVE_KEY = 'progressive_era_save_v1';
+// Home timeline (the Flashpoint landing page) — exit link at chapter/game end.
+const TIMELINE_URL = 'https://flashpointhistory.com';
 
 const INIT_METERS = {
   corporate: 80,
@@ -1546,6 +1548,7 @@ function ChapterEnd({ chapter, meters, onHub }) {
         <button className="btn btn-primary" onClick={onHub}>
           {chapter.id < CHAPTERS.length ? 'Next Chapter →' : 'Final Verdict →'}
         </button>
+        <a className="btn btn-secondary" href={TIMELINE_URL}>↩ Flashpoint Timeline</a>
       </div>
     </div>
   );
@@ -1584,7 +1587,10 @@ function VerdictScreen({ meters, onHub }) {
       <p className="body-text" style={{ fontSize: 13, color: '#6a5a42' }}>
         Use the reflection journal to connect these outcomes to the Regents standards. Play again to explore how different choices shape different historical outcomes.
       </p>
-      <button className="btn btn-secondary" onClick={onHub} style={{ marginTop: 8 }}>Back to Chapter Select</button>
+      <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 8 }}>
+        <button className="btn btn-secondary" onClick={onHub}>Back to Chapter Select</button>
+        <a className="btn btn-primary" href={TIMELINE_URL}>↩ All Flashpoint Games</a>
+      </div>
     </div>
   );
 }
