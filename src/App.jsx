@@ -45,10 +45,10 @@ const CHAPTERS = [
   // ═══════════════════════════════════════════════════════
   {
     id: 1, title: 'The Jungle', accentColor: '#8B1A1A',
-    role: 'Jurgis Rudkus — Lithuanian immigrant, Chicago meatpacking worker',
+    role: 'Jurgis Rudkus — the fictional Lithuanian worker at the heart of Sinclair\'s The Jungle, built from the stories of real Packingtown workers',
     years: '1900 – 1906',
-    quote: '"I aimed at the public\'s heart and by accident hit it in the stomach."',
-    quoteSource: 'Upton Sinclair, on The Jungle, 1906',
+    quote: '"I aimed at the public\'s heart, and by accident I hit it in the stomach."',
+    quoteSource: 'Upton Sinclair, Cosmopolitan, October 1906',
     context: [
       'By 1900, Chicago\'s Union Stock Yards processed over nine million animals a year — the industrial heart of American meatpacking. Workers like you arrived by the thousands from Eastern Europe, lured by labor agents who promised steady wages and a new life. What you found was something else: twelve-hour shifts in freezing slaughterhouses, wages barely covering rent in the packed Packingtown tenements, and foremen who could fire a man on a whim.',
       'The industrial economy had produced extraordinary wealth — but that wealth pooled at the top. The "Beef Trust," a cartel of Armour, Swift, and two other giants, colluded to set wages low and prices high. Workers had almost no legal protection. The courts treated unions as conspiracies. Children worked alongside adults. Injuries were common; compensation was not. The Sherman Antitrust Act of 1890 existed but had been mostly used against labor organizers rather than corporations.',
@@ -86,7 +86,7 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1906', situation: 'A young journalist named Upton Sinclair has been living in Packingtown for weeks. Through a mutual contact, he finds you and asks you to describe everything you have witnessed — the diseased meat, the worker injuries, the fertilizer room. If management finds out you talked, you will never work in this industry again.',
+        year: '1904', situation: 'A young journalist named Upton Sinclair has been living in Packingtown for weeks. Through a mutual contact, he finds you and asks you to describe everything you have witnessed — the diseased meat, the worker injuries, the fertilizer room. If management finds out you talked, you will never work in this industry again.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Tell him everything. The truth has to come out.',
@@ -110,11 +110,11 @@ const CHAPTERS = [
         'It led directly to the passage of women\'s suffrage legislation.'
       ],
       correctIndex: 1,
-      explanation: 'While Sinclair wrote The Jungle to expose worker exploitation, the public reaction focused on food contamination — prompting Roosevelt to push the Federal Meat Inspection Act and Pure Food and Drug Act (1906). These laws created a new principle: that the federal government had both the authority and the obligation to regulate private industry in the public interest. This was a fundamental break from Gilded Age laissez-faire policy. As Sinclair himself wrote: "I aimed at the public\'s heart and by accident hit it in the stomach." The reform that passed protected consumers more than workers — a lesson about whose interests drive legislation.',
+      explanation: 'While Sinclair wrote The Jungle to expose worker exploitation, the public reaction focused on food contamination — prompting Roosevelt to push the Federal Meat Inspection Act and Pure Food and Drug Act (1906). These laws created a new principle: that the federal government had both the authority and the obligation to regulate private industry in the public interest. This was a fundamental break from Gilded Age laissez-faire policy. As Sinclair himself wrote: "I aimed at the public\'s heart, and by accident I hit it in the stomach." The reform that passed protected consumers more than workers — a lesson about whose interests drive legislation.',
       regentsSkill: 'Causation & Historical Significance'
     },
     crisisTitle: 'THE GREAT STRIKE',
-    crisisText: 'The organizing you helped spark ignites into a citywide walkout. 40,000 workers leave the yards. Management calls in strike-breakers from the South, advertising jobs to Black workers who have no other option — deliberately stoking racial tensions to split the labor movement. The strike will fail. But the movement it builds will outlast the defeat.'
+    crisisText: 'The organizing you helped spark ignites into a citywide walkout. Some 18,000 Chicago packinghouse workers leave the yards. Management calls in strike-breakers from the South, advertising jobs to Black workers who have no other option — deliberately stoking racial tensions to split the labor movement. The strike will fail. But the movement it builds will outlast the defeat.'
   },
 
   // ═══════════════════════════════════════════════════════
@@ -125,10 +125,10 @@ const CHAPTERS = [
     role: 'Ida B. Wells-Barnett — investigative journalist and civil rights activist, Chicago',
     years: '1902 – 1908',
     quote: '"The way to right wrongs is to turn the light of truth upon them."',
-    quoteSource: 'Ida B. Wells-Barnett, 1893',
+    quoteSource: 'Ida B. Wells-Barnett',
     context: [
-      'The early 1900s produced one of the most powerful waves of investigative journalism in American history. McClure\'s Magazine, Collier\'s, and The Independent published exposés that named names and cited records. Ida Tarbell\'s eighteen-part investigation of Standard Oil ran from 1902 to 1904. Lincoln Steffens documented municipal corruption city by city. The reading public — newly literate, newly middle-class — devoured every word.',
-      'Theodore Roosevelt called these writers "muckrakers" after a character in Bunyan\'s Pilgrim\'s Progress who could only look downward at filth. He meant it partly as a compliment and partly as a warning: reform required more than exposure. But the muckrakers understood something Roosevelt sometimes forgot — that without public pressure, politicians had no reason to act. Outrage was the engine of Progressive reform.',
+      'The early 1900s produced one of the most powerful waves of investigative journalism in American history. McClure\'s Magazine, Collier\'s, and The Independent published exposés that named names and cited records. Ida Tarbell\'s nineteen-part investigation of Standard Oil ran from 1902 to 1904. Lincoln Steffens documented municipal corruption city by city. The reading public — newly literate, newly middle-class — devoured every word.',
+      'Theodore Roosevelt called these writers "muckrakers" after a character in Bunyan\'s Pilgrim\'s Progress who could only look downward at filth. He meant it as a rebuke — though he admitted real evils needed exposing, he warned that writers who saw only filth could not lead reform. But the muckrakers understood something Roosevelt sometimes forgot — that without public pressure, politicians had no reason to act. Outrage was the engine of Progressive reform.',
       'Ida B. Wells-Barnett had been doing this work before it had a name. Her 1892 pamphlet Southern Horrors documented the lynching epidemic with statistical precision. Forced to flee Memphis under death threats, she built a national anti-lynching campaign from Chicago. In the Progressive Era, she occupied an uncomfortable position: celebrated in some reform circles, excluded from others. She would help found the NAACP — and then be nearly written out of its founding narrative by the men who controlled the memory of it.'
     ],
     decisions: [
@@ -163,7 +163,7 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1908', situation: 'The NAACP is being organized. Du Bois, Villard, and others invite you into the founding circle. But you have serious disagreements over strategy: they want cautious legal pressure; you believe in direct, public, confrontational campaigning. You could join and push from within — or stay independent and apply pressure from outside.',
+        year: '1909', situation: 'After the 1908 Springfield riot, reformers issue a "Call," and the NAACP is being organized. Du Bois, Villard, and others invite you into the founding circle. But you have serious disagreements over strategy: they want cautious legal pressure; you believe in direct, public, confrontational campaigning. You could join and push from within — or stay independent and apply pressure from outside.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Join the NAACP and fight for your approach from the inside.',
@@ -238,7 +238,7 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1911', situation: 'The Supreme Court has ordered Standard Oil broken up into thirty-four smaller companies. It is a legal victory — but some economists warn the smaller companies will be more aggressively competitive with fewer labor protections. Others note that the Rockefeller family still owns large stakes in all thirty-four companies. Has anything actually changed?',
+        year: '1911', situation: 'You left the White House two years ago, but the suit your Justice Department filed in 1906 has reached its end: the Supreme Court has ordered Standard Oil broken up into thirty-four smaller companies. It is a legal victory — but some economists warn the smaller companies will be more aggressively competitive with fewer labor protections. Others note that the Rockefeller family still owns large stakes in all thirty-four companies. Has anything actually changed?',
         question: 'How do you publicly assess this outcome?',
         options: [
           { label: 'A', text: 'Declare victory. The precedent is what matters — the government can break up monopolies.',
@@ -248,7 +248,7 @@ const CHAPTERS = [
             consequence: 'You push for legislation targeting holding companies and interlocking corporate ownership. The Clayton Antitrust Act, passed under Wilson in 1914, reflects some of this work. The problem is real — but your warnings are heard as sour grapes after a legal victory.',
             meters: { corporate: -8, labor: +3, reform: +10, political: +5 } },
           { label: 'C', text: 'Acknowledge it is a partial solution — structural change requires more than antitrust law.',
-            consequence: 'You give a speech arguing that real economic democracy requires more: stronger labor laws, progressive taxation, perhaps public ownership of utilities. It is your most radical statement. Congress mostly ignores it. But it is the most honest thing you have said as president.',
+            consequence: 'You give a speech arguing that real economic democracy requires more: stronger labor laws, progressive taxation, perhaps public ownership of utilities. It is your most radical statement. Congress mostly ignores it. But it is the most honest thing you have said since leaving the presidency.',
             meters: { corporate: -7, labor: +5, reform: +10, political: +3 } }
         ]
       }
@@ -262,7 +262,7 @@ const CHAPTERS = [
         'Roosevelt proved that antitrust law was an ineffective tool against monopoly power.'
       ],
       correctIndex: 1,
-      explanation: 'Roosevelt did not destroy big business — he established the principle that the federal government had the authority and responsibility to regulate corporations in the public interest. The Sherman Act had existed since 1890 but had been mostly applied against labor unions. Roosevelt\'s use of it against Northern Securities (1902) and Standard Oil (1911), combined with legislation like the Hepburn Act (1906) and Pure Food and Drug Act (1906), created what historians call the "regulatory state" — a permanent federal role in overseeing private economic activity. This was a fundamental shift from the laissez-faire approach of the Gilded Age. Many of these regulatory frameworks were the direct ancestors of New Deal legislation.',
+      explanation: 'Roosevelt did not destroy big business — he established the principle that the federal government had the authority and responsibility to regulate corporations in the public interest. The Sherman Act had existed since 1890 but had been mostly applied against labor unions. Roosevelt\'s use of it against Northern Securities (decided 1904) and Standard Oil (filed 1906, decided 1911 under Taft), combined with legislation like the Hepburn Act (1906) and Pure Food and Drug Act (1906), created what historians call the "regulatory state" — a permanent federal role in overseeing private economic activity. This was a fundamental shift from the laissez-faire approach of the Gilded Age. Many of these regulatory frameworks were the direct ancestors of New Deal legislation.',
       regentsSkill: 'Continuity & Change Over Time'
     }
   },
@@ -279,15 +279,15 @@ const CHAPTERS = [
     context: [
       'In the tenement factories of New York\'s Lower East Side, young immigrant women — mostly Jewish and Italian, mostly between sixteen and twenty-five — stitched shirtwaists twelve hours a day, six days a week, for wages as low as $3 a week. The factories were crowded into the upper floors of Lower Manhattan buildings. Exits were sometimes locked by owners to prevent theft of materials. Inspectors could be bribed. The International Ladies\' Garment Workers\' Union existed but was small and largely ineffective.',
       'On November 22, 1909, Clara Lemlich — a twenty-three-year-old Ukrainian immigrant who had already been beaten by company thugs for her organizing work — rose at a packed Cooper Union meeting and gave an impromptu speech in Yiddish. She called for a general strike. Twenty thousand garment workers walked out the next morning. The "Uprising of the Twenty Thousand" forced many manufacturers to settle — shorter hours, higher wages, some safety improvements. But not all shops settled. The Triangle Waist Company did not.',
-      'On March 25, 1911, a fire broke out on the upper floors of the Triangle Shirtwaist Factory. Exit doors were locked. The fire escapes collapsed. In 18 minutes, 146 workers — mostly young women — died. The city watched. The country watched. And the question became: what would government do with the grief and the outrage that followed?'
+      'On March 25, 1911, a fire broke out on the upper floors of the Triangle Shirtwaist Factory. A key exit door was locked. The building\'s single fire escape collapsed. In 18 minutes, 146 workers — mostly young women — died. The city watched. The country watched. And the question became: what would government do with the grief and the outrage that followed?'
     ],
     decisions: [
       {
-        year: '1909', situation: 'It is the night of the Cooper Union meeting. The ILGWU leadership has been cautious — they doubt a general strike can be sustained. You are largely unknown. You have been beaten twice on the picket line. But twenty thousand workers are in this hall, and the energy is like nothing you have felt before. The chairman is wrapping up without a strike call.',
+        year: '1909', situation: 'It is the night of the Cooper Union meeting. The ILGWU leadership has been cautious — they doubt a general strike can be sustained. You are largely unknown. You have been beaten twice on the picket line. But the hall is packed past its seats, overflow meetings fill the halls nearby, and the energy is like nothing you have felt before. The chairman is wrapping up without a strike call.',
         question: 'What do you do?',
         options: [
-          { label: 'A', text: 'Push to the microphone and call for a general strike in Yiddish — right now, in front of everyone.',
-            consequence: '"I am tired of the speakers! I move that we go on general strike!" The hall erupts. Twenty thousand workers walk out the next morning. The union leadership scrambles to catch up — but the movement is moving, with or without them.',
+          { label: 'A', text: 'Push to the platform and call for a general strike in Yiddish — right now, in front of everyone.',
+            consequence: '"I have no further patience for talk… I move that we go on a general strike!" The hall erupts. Twenty thousand workers walk out the next morning. The union leadership scrambles to catch up — but the movement is moving, with or without them.',
             meters: { corporate: -5, labor: +15, reform: +8, political: +5 } },
           { label: 'B', text: 'Speak but call for a formal vote rather than a unilateral declaration.',
             consequence: 'You speak and propose a vote. It passes overwhelmingly. The strike begins with more organizational structure but less spontaneous energy. Slightly smaller — but better organized.',
@@ -298,7 +298,7 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1911', situation: 'The day after the Triangle fire, 100,000 people fill the streets of New York. The owners, Isaac Harris and Max Blanck, are charged with manslaughter. You are asked to testify about the locked doors — you personally saw them locked. The defense will attack your credibility, your immigration status, your union affiliation.',
+        year: '1911', situation: 'Two weeks after the Triangle fire, more than 100,000 people march through the rain behind the coffins of the dead. The owners, Isaac Harris and Max Blanck, are charged with manslaughter. You are asked to testify about the locked doors — workers you organized in 1909 told you the doors were kept locked. The defense will attack your credibility, your immigration status, your union affiliation.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Testify. The dead deserve a witness.',
@@ -342,7 +342,7 @@ const CHAPTERS = [
     },
     isCrisisChapter: true,
     crisisTitle: 'THE TRIANGLE FIRE',
-    crisisText: 'The fire escapes collapse. The exit doors are locked. In eighteen minutes, 146 workers are dead — mostly young women, many of them jumping to escape the flames. New York City grieves in the streets. 100,000 people march in the rain. The question is no longer whether reform will come. The question is whether it will come fast enough — and for whom.'
+    crisisText: 'The fire escape collapses. A key exit door is locked. In eighteen minutes, 146 workers are dead — mostly young women, many of them jumping to escape the flames. New York City grieves in the streets. 100,000 people march in the rain. The question is no longer whether reform will come. The question is whether it will come fast enough — and for whom.'
   },
 
   // ═══════════════════════════════════════════════════════
@@ -352,8 +352,8 @@ const CHAPTERS = [
     id: 5, title: 'Votes for Women', accentColor: '#7B5EA7',
     role: 'Alice Paul — suffragist organizer, National Woman\'s Party',
     years: '1910 – 1920',
-    quote: '"There will never be a new world order until women are a part of it."',
-    quoteSource: 'Alice Paul, c. 1915',
+    quote: '"Mr. President, how long must women wait for liberty?"',
+    quoteSource: 'Silent Sentinels\' banner, National Woman\'s Party, White House, January 1917',
     context: [
       'In 1910, no Eastern state gave women the right to vote in federal elections. Women had been organizing for suffrage since Seneca Falls in 1848 — sixty-two years of petition drives, legislative campaigns, and public speeches had produced minimal results in the East. The antisuffrage movement, backed by liquor interests, Southern conservatives, and urban political machines, remained powerful.',
       'Two strategies shaped the suffrage movement\'s final decade. The older National American Woman Suffrage Association, led by Carrie Chapman Catt, preferred a state-by-state strategy: win enough states to create political pressure for a federal amendment. Alice Paul, who had studied militant tactics with the British suffragettes, believed only direct confrontation would work. In 1913, she organized a parade down Pennsylvania Avenue the day before Wilson\'s inauguration — 5,000 women marching past jeering crowds while police stood by.',
@@ -371,16 +371,16 @@ const CHAPTERS = [
             consequence: 'Ida B. Wells-Barnett, who came to march with the Illinois delegation, steps out from the crowd and joins the main line anyway. The compromise satisfies no one and marks a permanent fracture between the two movements.',
             meters: { corporate: 0, labor: 0, reform: +3, political: +5 } },
           { label: 'C', text: 'Exclude Black delegations from the march. The amendment comes first.',
-            consequence: 'The march is large and white. It is celebrated nationally. The amendment eventually passes — seven years later — with a Southern compromise that will effectively exclude Black women from voting through Jim Crow for decades to come.',
+            consequence: 'The march is large and white. It is celebrated nationally. The amendment eventually passes — seven years later — leaving untouched the Jim Crow laws that will keep most Southern Black women from the polls for decades to come.',
             meters: { corporate: 0, labor: -3, reform: -3, political: +7 } }
         ]
       },
       {
-        year: '1917', situation: 'Silent Sentinels — women you organized to picket the White House — have been arrested and sent to the Occoquan Workhouse. They are being force-fed after going on hunger strike. The "Night of Terror" — when guards beat and assaulted the prisoners — has not yet leaked to the press. You can release the story now. Wilson wants it suppressed.',
+        year: '1917', situation: 'Silent Sentinels — women you organized to picket the White House — have been arrested and sent to the Occoquan Workhouse. They are being force-fed after going on hunger strike. The "Night of Terror" — when guards beat and assaulted the prisoners — has not yet leaked to the press. You are in the D.C. Jail yourself, on hunger strike. Through a smuggled note, you can tell the Party to release the story now.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Release everything to the press immediately.',
-            consequence: 'The story runs in every major newspaper. The public is horrified. Wilson, already embarrassed, orders the prisoners released. Two months later, he publicly announces support for the federal amendment. The brutality he ordered hidden becomes the thing that breaks his resistance.',
+            consequence: 'The story runs in every major newspaper. The public is horrified. Wilson, already embarrassed, orders the prisoners released. Six weeks later, he publicly announces support for the federal amendment. The brutality the administration hoped would stay quiet becomes the thing that breaks his resistance.',
             meters: { corporate: 0, labor: +3, reform: +10, political: +10 } },
           { label: 'B', text: 'Use the story privately as leverage with the White House before going public.',
             consequence: 'You send word to Wilson\'s staff: release the prisoners, or the story runs. They release the prisoners within twenty-four hours. The story never fully runs. You secured their freedom — but the government faces no public accountability for what it did.',
@@ -391,7 +391,7 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1920', situation: 'The Nineteenth Amendment has passed. In theory, all women can now vote. In practice, Jim Crow laws — poll taxes, literacy tests, grandfather clauses, violence — will prevent most Black women in the South from voting for decades. NAWSA leaders are celebrating. NAACP leaders are calling the amendment "a hollow victory for half of our women."',
+        year: '1920', situation: 'The Nineteenth Amendment has passed. In theory, all women can now vote. In practice, Jim Crow laws — poll taxes, literacy tests, grandfather clauses, violence — will prevent most Black women in the South from voting for decades. NAWSA leaders are celebrating. Black women\'s organizations and the NAACP warn that, in the South, the amendment will mean little for Black women.',
         question: 'How do you respond publicly?',
         options: [
           { label: 'A', text: 'Acknowledge the gap publicly and commit the movement to fighting voting suppression.',
@@ -430,9 +430,9 @@ const CHAPTERS = [
     quote: '"The good we secure for ourselves is precarious and uncertain until it is secured for all of us."',
     quoteSource: 'Jane Addams, 1892',
     context: [
-      'By 1912, the Republican Party was fracturing. William Howard Taft, Roosevelt\'s chosen successor, had moved in a conservative direction — backing down on railroad regulation, firing Roosevelt\'s conservation chief, and supporting a high tariff that benefited eastern manufacturers at the expense of consumers. Roosevelt, convinced that Taft had betrayed the Progressive legacy, challenged him for the Republican nomination and lost — the party machinery was in Taft\'s hands.',
+      'By 1912, the Republican Party was fracturing. William Howard Taft, Roosevelt\'s chosen successor, had moved in a conservative direction — firing Roosevelt\'s conservation chief, suing U.S. Steel over a merger Roosevelt had approved, and supporting a high tariff that benefited eastern manufacturers at the expense of consumers. Roosevelt, convinced that Taft had betrayed the Progressive legacy, challenged him for the Republican nomination and lost — the party machinery was in Taft\'s hands.',
       'Roosevelt bolted and formed the Progressive Party — called the Bull Moose Party after he boasted he felt "as strong as a bull moose." The platform was the most ambitious domestic agenda a major American party had ever offered: women\'s suffrage, an eight-hour workday, a minimum wage for women, direct election of senators, workers\' compensation, prohibition of child labor, and a federal income tax. It was the entire Progressive Era agenda in a single document.',
-      'Jane Addams seconded Roosevelt\'s nomination — the first woman to second a major party presidential nomination. But the party carried a contradiction she could not resolve: the platform included no racial equality plank, and Black delegates from Southern states were excluded from the convention floor to avoid alienating white Southern Progressives. Addams voted for the platform. The decision haunted her.'
+      'Jane Addams seconded Roosevelt\'s nomination — the most famous woman in America standing at the center of a presidential convention. But the party carried a contradiction she could not resolve: the platform included no racial equality plank, and Black delegates from Southern states were excluded from the convention floor to avoid alienating white Southern Progressives. Addams voted for the platform. Then she had to explain herself to readers of The Crisis.'
     ],
     decisions: [
       {
@@ -451,11 +451,11 @@ const CHAPTERS = [
         ]
       },
       {
-        year: '1913', situation: 'Woodrow Wilson — who ran as a progressive — is now segregating the federal civil service. Black federal workers are being separated into different offices, cafeterias, and bathrooms. Wilson says it is "kindness" to prevent "racial friction." You have access to Wilson through reform networks. What you do will be remembered.',
+        year: '1913', situation: 'Woodrow Wilson — who ran as a progressive — is now segregating the federal civil service. Black federal workers are being separated into different offices, cafeterias, and bathrooms. Wilson\'s administration says separation will prevent "friction" and is "for the benefit of both" races. You have access to Wilson through reform networks. What you do will be remembered.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Organize a direct delegation to Wilson — bring Black leaders including Du Bois to the White House.',
-            consequence: 'The delegation goes. Wilson is cold and dismissive. When Du Bois speaks plainly, Wilson ends the meeting. The re-segregation continues. But the refusal to remain silent is documented, and the delegation draws press coverage that embarrasses the administration nationally.',
+            consequence: 'The delegation goes. Wilson is cold and dismissive. When William Monroe Trotter speaks plainly, Wilson ends the meeting. The re-segregation continues. But the refusal to remain silent is documented, and the delegation draws press coverage that embarrasses the administration nationally.',
             meters: { corporate: 0, labor: +3, reform: +8, political: +5 } },
           { label: 'B', text: 'Publish a joint statement with NAACP leaders condemning the policy.',
             consequence: 'The statement runs in major papers and The Crisis. It is your clearest public statement on race and governance. Wilson ignores it. But the coalition between Progressive reform and civil rights organizations is strengthened — a connection that matters in later decades.',
@@ -475,8 +475,8 @@ const CHAPTERS = [
           { label: 'B', text: 'Stay silent on the war to protect the domestic reform agenda.',
             consequence: 'You say nothing about the war. Your reform relationships survive. But your silence is noticed and remembered. You survive the war politically. You also live with the knowledge of what your silence cost those counting on your voice.',
             meters: { corporate: 0, labor: 0, reform: +3, political: +5 } },
-          { label: 'C', text: 'Channel your opposition through the Women\'s International League for Peace and Freedom.',
-            consequence: 'You operate through transnational networks rather than American political ones. You preserve your domestic relationships while maintaining your principles — a narrower path, but one that holds. The WILPF becomes one of the longest-lived peace organizations in history.',
+          { label: 'C', text: 'Channel your opposition through the Woman\'s Peace Party and the international women\'s peace committee you lead.',
+            consequence: 'You operate through transnational networks rather than American political ones. You preserve your domestic relationships while maintaining your principles — a narrower path, but one that holds. That committee becomes the Women\'s International League for Peace and Freedom in 1919, one of the longest-lived peace organizations in history.',
             meters: { corporate: 0, labor: +2, reform: +6, political: +2 } }
         ]
       }
@@ -502,8 +502,8 @@ const CHAPTERS = [
     id: 7, title: 'The Limits of Reform', accentColor: '#3A3A5C',
     role: 'James Weldon Johnson — poet, diplomat, and NAACP field secretary',
     years: '1913 – 1921',
-    quote: '"Life is a raw material we are given — what we make of it is our own work."',
-    quoteSource: 'James Weldon Johnson, Along This Way, 1933',
+    quote: '"Sing a song full of the faith that the dark past has taught us, / Sing a song full of the hope that the present has brought us."',
+    quoteSource: 'James Weldon Johnson, "Lift Every Voice and Sing," 1900',
     context: [
       'The Progressive Era transformed the relationship between the federal government and the economy. It produced the Federal Reserve, the income tax, the direct election of senators, food safety laws, labor regulations, and women\'s suffrage. The institutional architecture of American governance in 1920 was measurably more democratic and more capable of limiting corporate power than it had been in 1900. These were real achievements, won through real struggle.',
       'But for approximately ten million Black Americans — roughly 10% of the national population — the Progressive Era was something different. Woodrow Wilson re-segregated the federal government. D.W. Griffith\'s Birth of a Nation (1915), glorifying the Ku Klux Klan, was screened at the White House. Between 1910 and 1920, the Great Migration began — approximately 500,000 Black Americans left the South for Northern cities, trading one form of oppression for another. In the North, they found factory work sometimes, but also segregated neighborhoods, discriminatory unions, and periodic racial violence. The Red Summer of 1919 saw race riots in over twenty cities.',
@@ -511,7 +511,7 @@ const CHAPTERS = [
     ],
     decisions: [
       {
-        year: '1915', situation: 'Woodrow Wilson is about to attend a private screening of The Birth of a Nation — a film depicting Black men as predators and celebrating the KKK. The revived Klan is using it as a recruiting tool. Riots have broken out after screenings. You have an opportunity to get a message to Wilson before he endorses the film publicly.',
+        year: '1915', situation: 'Woodrow Wilson is about to attend a private screening of The Birth of a Nation — a film depicting Black men as predators and celebrating the KKK. Black newspapers and the young NAACP fear it will spread race hatred wherever it plays. You have an opportunity to get a message to Wilson before the film\'s makers can claim the President\'s approval.',
         question: 'What do you do?',
         options: [
           { label: 'A', text: 'Threaten a national boycott of Wilson\'s agenda if he endorses the film.',
@@ -1332,7 +1332,7 @@ function TitleScreen({ onStart, onResume, hasSave }) {
 // ── HOW TO PLAY ───────────────────────────────────────────
 function HowToPlay({ onContinue }) {
   const items = [
-    ['Your Role', 'Each chapter places you inside a specific historical actor — not an observer. Your decisions are their decisions.'],
+    ['Your Role', 'Each chapter places you inside a historical actor — six real people and one fictional worker drawn from Sinclair\'s novel — not an observer. Your decisions are their decisions.'],
     ['The Gauges', 'Four forces shape the Progressive Era: Corporate Power, Labor Unrest, Reform Pressure, and Political Will. Your choices shift all four.'],
     ['No Right Answers', 'Every decision involves real trade-offs. The most historically accurate choice is not always the most morally comfortable one.'],
     ['Regents Hinge', 'Each chapter closes with a Regents-style analytical question. Full explanations are provided regardless of your answer.'],
